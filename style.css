@@ -1,0 +1,86 @@
+*
+{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(35, 35, 35);
+}
+.calculator_div_container
+{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: black;
+    border-radius: .5rem;
+}
+@media (max-width:266px) {
+    .calculator_div_container
+    {
+        width:100vw;
+
+    }
+}
+.text_field
+{
+    width:100%;
+    padding: 1rem;
+}
+.button_div
+{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+   
+}
+.row
+{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    align-items: stretch;
+    justify-content: center;
+
+}
+.btn
+{
+    background-color: gray;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19)
+}
+#divide
+{
+    background-color: orange;
+}
+#mul{
+    background-color: orange;
+}
+#minus
+{
+    background-color: orange;
+}
+
+#plus
+{
+    background-color: orange;
+}
+#equal
+{
+    background-color: orange;
+}
